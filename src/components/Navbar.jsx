@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import pic from "../ce.jpg";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -17,6 +18,10 @@ function Navbar() {
     {
       id: 3,
       text: "Skills",
+    },
+    {
+      id: 4,
+      text: "Experience",
     },
     {
       id: 5,
