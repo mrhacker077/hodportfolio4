@@ -1,12 +1,7 @@
 import React from "react";
-import cad from "../cad.jpeg";
-import cam from "../cam.jpeg";
-import fluidmechanics from "../fluidmechanics.jpg";
-import machinedesign from "../machinedesign.jpeg";
-import materialscience from "../materialscience.jpg";
-import technicaldrawing from "../technicaldrawing.jpg";
-import thermodynamics from "../thermodynamics.jpeg";
-import theoryofmachine from "../theoryofmachine.avif";
+import se from "../se.jpg";
+import pg from "../pg.jpg";
+import ce from "../ce.png";
 
 
 
@@ -14,60 +9,26 @@ function Skills() {
   const cardItem = [
     {
       id: 1,
-      logo: cad,
-      name: " ",
+      logo: se,
+      name: "Site engineer ",
       description:
-        "CAD offers design software, 3D modeling tools, and engineering solutions for industries worldwide.",
+        "A Site Engineer oversees construction, ensuring design and safety compliance while managing execution and issues.",
     },
     {
       id: 2,
-      logo: cam,
-      name: "CAM",
+      logo: pg,
+      name: "Project guidance",
       description:
-        "CAM provides software and tools to automate manufacturing processes from CAD designs.",
+        "Project guidance supports planning, execution, and problem-solving to meet deadlines and quality standards.",
     },
     {
       id: 3,
-      logo: fluidmechanics,
-      name: "Fluid mechanics",
+      logo: ce,
+      name: "Chartered engineer",
       description:
-        "Fluid mechanics is the study of fluids and their behaviors in motion and at rest, crucial for various engineering applications.",
+        "A Chartered Engineer is a certified professional with expertise in engineering, innovation, and leadership.",
     },
-    {
-      id: 4,
-      logo: machinedesign,
-      name: "Machine design",
-      description:
-        "Machine design involves creating mechanical systems and components, ensuring functionality, efficiency, and reliability in engineering applications.",
-    },
-    {
-      id: 5,
-      logo: materialscience,
-      name: "Materialscience",
-      description:
-        "Material science is the study of materials' properties and behavior, crucial for developing durable and efficient engineering solutions.",
-    },
-    {
-      id: 6,
-      logo: technicaldrawing,
-      name: "Technical drawing",
-      description:
-        "Technical drawing involves creating detailed visuals to communicate design specifications in engineering.",
-    },
-    {
-        id: 7,
-        logo: thermodynamics,
-        name: "Thermodynamics",
-        description:
-          "Thermodynamics is the study of heat, energy, and their transformations in mechanical systems.",
-      },
-      {
-        id: 8,
-        logo: theoryofmachine,
-        name: "Theory of machines",
-        description:
-          "Theory of machines is the study of mechanical systems' motion, forces, and mechanisms in engineering.",
-      },
+    
   ];
 
   return (

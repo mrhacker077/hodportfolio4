@@ -15,7 +15,7 @@ function Footer() {
           <div className="flex flex-col items-center justify-center">
             <div className="flex space-x-4">
               <a
-                href="https://www.facebook.com/share/1E8xXTztUw/"
+                href="https://www.facebook.com/share/14eWEcGLZb/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
